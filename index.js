@@ -1,7 +1,7 @@
 import express from 'express';
-import search from './lib/search.mjs';
-import download from './lib/download.mjs';
-import getShowTitles from './lib/getShowTitles.mjs';
+import search from './lib/search.js';
+import download from './lib/download.js';
+import getShowTitles from './lib/getShowTitles.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
